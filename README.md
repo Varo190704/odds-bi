@@ -42,7 +42,13 @@ The file must include the following columns:
 
 After editing the CSV, run the ETL again from the "Run ETL" tab in the dashboard to refresh the transformed data and visualizations.
 
+## Web
+```bash
+https://odds-bi.streamlit.app
+```
+
 ## Running locally
 ```bash
 pip install -r requirements.txt
 python -m streamlit run app.py
+
