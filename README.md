@@ -19,4 +19,4 @@ A small Business Intelligence project built to demonstrate ETL design, basic dat
 ## Running locally
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+python -m streamlit run app.py
