@@ -45,7 +45,7 @@ with tab1:
         fig1 = px.line(
             data,
             x="time",
-            y="Live Match Odds",
+            y="liodds",
             title="Live Odds Over Time",
             markers=True
         )
@@ -55,7 +55,7 @@ with tab1:
         fig2 = px.bar(
             data,
             x="time",
-            y="Percentage Match Change",
+            y="pctchange",
             title="Percentage Change",
             color="volat"
         )
